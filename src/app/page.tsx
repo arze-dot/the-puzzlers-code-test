@@ -1,9 +1,13 @@
-import Image from "next/image";
+import Banner from "./$element/banner";
+import Clients from "./$element/clients";
+import Header from "./$element/header";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      The Puzzlers Code Test
+    <main className="w-screen h-screen">
+      <Header />
+      <Banner />
+      <Clients />
     </main>
   );
 }
