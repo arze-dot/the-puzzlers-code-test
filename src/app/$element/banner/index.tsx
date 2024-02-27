@@ -1,9 +1,18 @@
+'use client'
+
 import Image from "next/image"
 import Button from "../button"
+import { motion } from 'framer-motion'
+import ImagePopUp from "./image-pop-up"
+import Stars from "./stars"
 
 const Banner: React.FC = () => {
+
+
+
+
     return (
-        <section className="w-full flex flex-col items-center justify-center gap-[24px] text-center mt-[24px] px-5">
+        <section className="w-full flex flex-col items-center justify-center gap-[24px] text-center mt-[64px] px-5 relative">
             <p className="text-[40px] font-pt-serif font-bold text-text-primary text-center">
                 Field sales software for humans
             </p>
@@ -20,7 +29,15 @@ const Banner: React.FC = () => {
                 </div>
             </div>
 
-            <Image className="mt-[64px]" alt='hero-banner' src='/images/hero-banner.svg' width={1177} height={699} />
+            {/* Stars */}
+            <Stars />
+
+            <Image className="mt-[64px]" alt='hero-banner' src='/images/hero-banner.png' width={1177} height={699} />
+
+            {/* Image Avatar Pop Up */}
+            <ImagePopUp />
+
+
         </section>
     )
 }

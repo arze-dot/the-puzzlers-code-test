@@ -1,8 +1,12 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
 First, run the development server:
+
+```bash
+npm install 
+# or 
+yarn
+```
 
 ```bash
 npm run dev
@@ -16,21 +20,29 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Or go to [https://the-puzzlers-code-test.vercel.app/] to see the result directly
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+# Project Documentation
 
-## Learn More
+## Why Next.js 14?
+Next.js is a powerful React framework that offers several benefits for web development:
+- **Server-Side Rendering (SSR)**
+- **Automatic Code Splitting**
+- **API Routes**
 
-To learn more about Next.js, take a look at the following resources:
+The latest version, Next.js 14, brings enhancements, performance optimizations, and new features, making it an excellent choice for modern web development projects.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Why App Router?
+- **Client-Side Navigation**
+- **Declarative Routing**
+- **Integration with Next.js**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Why Tailwind CSS?
+- **Rapid Development**
+- **Customization**
+- **Maintainability**
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Why Framer Motion?
+- **Declarative API**
+- **Performance**
+- **Rich Animation Controls**

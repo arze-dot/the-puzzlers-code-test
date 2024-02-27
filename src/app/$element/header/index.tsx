@@ -2,8 +2,13 @@
 
 import Image from "next/image";
 import Button from "../button";
+import Sidebar from "../sidebar";
+import { useState } from "react";
 
 const Header: React.FC = () => {
+
+
+    const [open, setOpen] = useState(false);
 
     const menu: string[] = [
         'Home',
@@ -32,7 +37,9 @@ const Header: React.FC = () => {
 
             </div>
 
-            <Image className="block lg:hidden" src='icons/menu.svg' alt='menu-icon' width={40} height={40} />
+            <Image className="block lg:hidden" src='icons/menu.svg' alt='menu-icon' width={40} height={40} onClick={() => setOpen(true)} />
+
+            <Sidebar open={open} setSidebar={(e) => setOpen(e)} menu={menu} />
 
             {/* Button */}
             <Button className="hidden lg:block" variant="primary">

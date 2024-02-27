@@ -7,21 +7,21 @@ const Clients = () => {
 
     // Triple the logo so it can loop nicely without empty state
     const clients: string[] = [
-        '/images/circle-logo.svg',
-        '/images/foxhub-logo.svg',
-        '/images/treva-logo.svg',
-        '/images/muzica-logo.svg',
-        '/images/goldline-logo.svg',
-        '/images/circle-logo.svg',
-        '/images/foxhub-logo.svg',
-        '/images/treva-logo.svg',
-        '/images/muzica-logo.svg',
-        '/images/goldline-logo.svg',
-        '/images/circle-logo.svg',
-        '/images/foxhub-logo.svg',
-        '/images/treva-logo.svg',
-        '/images/muzica-logo.svg',
-        '/images/goldline-logo.svg',
+        '/images/circle-logo.png',
+        '/images/foxhub-logo.png',
+        '/images/treva-logo.png',
+        '/images/muzica-logo.png',
+        '/images/goldline-logo.png',
+        '/images/circle-logo.png',
+        '/images/foxhub-logo.png',
+        '/images/treva-logo.png',
+        '/images/muzica-logo.png',
+        '/images/goldline-logo.png',
+        '/images/circle-logo.png',
+        '/images/foxhub-logo.png',
+        '/images/treva-logo.png',
+        '/images/muzica-logo.png',
+        '/images/goldline-logo.png',
     ]
 
     const marqueeVariants = {

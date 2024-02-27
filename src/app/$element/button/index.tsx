@@ -24,7 +24,7 @@ const Button: React.FC<ButtonProps> = ({ children, className = null, variant = '
     console.log(variant === 'disabled')
 
     return (
-        <button disabled={variant === 'disabled'} className={`px-[33px] py-[8px] rounded-3xl border border-border-dark ${variant !== 'disabled' && 'hover:border-b-4'} font-pt-sans font-bold text-[16px] ${style()} ${className} `}>
+        <button disabled={variant === 'disabled'} className={`px-[33px] py-[8px] rounded-3xl border border-border-dark border-b-4 ${variant !== 'disabled' && 'hover:border-b'} font-pt-sans font-bold text-[16px] ${style()} ${className} `}>
             {children}
         </button>
     )
